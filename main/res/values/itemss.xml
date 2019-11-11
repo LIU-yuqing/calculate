@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="itemss">
+        <item >立方厘米</item>
+        <item >立方毫米</item>
+        <item >立方米</item>
+
+    </string-array>
+</resources>
+
