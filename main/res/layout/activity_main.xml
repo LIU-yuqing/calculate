@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#ffffff"
+    tools:context="com.example.myapplication1.MainActivity1">
     >
     <!-- 结果显示框 -->
     <EditText
-        android:id="@+id/input"
+
         android:layout_width="fill_parent"
         android:layout_height="140dp"
         android:cursorVisible="false"
         android:editable="false"
         android:gravity="right"
         android:text="0" />
+
     <!-- 接下去采TableRow的格式进行布局设计 -->
 
 
@@ -21,7 +24,6 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         >
-        <!-- 显示当前是角度还是弧度 -->
         <TextView android:id="@+id/_drg"
             android:layout_width="65sp"
             android:layout_height="wrap_content"
@@ -30,13 +32,14 @@
         <!-- 清除输出窗口的所有内容 -->
         <Button android:id="@+id/c"
             android:text="C"
-            android:layout_width="130sp"
+            android:layout_width="100sp"
             android:layout_height="wrap_content"
             />
+
         <!-- 单位转换 -->
         <Button
             android:id="@+id/switch_button"
-            android:layout_width="130sp"
+            android:layout_width="100sp"
             android:layout_height="wrap_content"
             android:text="转换" />
     </TableRow>
@@ -184,8 +187,8 @@
 
 
         <!-- 退格键 -->
-        <Button android:id="@+id/bksp"
-            android:text="Back"
+        <Button android:id="@+id/del"
+            android:text="del"
             android:layout_height="fill_parent"
             android:layout_weight="1"
             />

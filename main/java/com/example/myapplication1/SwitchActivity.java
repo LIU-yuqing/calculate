@@ -9,10 +9,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 
-import com.example.calculateapp.R;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 
-public class SwitchActivity extends  Activity {
+public class SwitchActivity extends AppCompatActivity{
 
     Button button_jinZhi;
     Button button_danWei;
