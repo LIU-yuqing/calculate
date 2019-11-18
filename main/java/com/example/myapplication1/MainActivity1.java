@@ -156,6 +156,14 @@ public class MainActivity1 extends AppCompatActivity {
                 textView.setText(String.valueOf(a));
             }
         });
+        log.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                double num = Integer.parseInt(textView.getText().toString());
+                double a = Math.log(num);
+                textView.setText(String.valueOf(a));
+            }
+        });
         c.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

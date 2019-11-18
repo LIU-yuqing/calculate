@@ -5,11 +5,11 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#ffffff"
-    tools:context="com.example.myapplication1.MainActivity1">
+
     >
     <!-- 结果显示框 -->
     <EditText
-
+        android:id="@+id/textView"
         android:layout_width="fill_parent"
         android:layout_height="140dp"
         android:cursorVisible="false"
